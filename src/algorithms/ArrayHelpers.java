@@ -15,4 +15,11 @@ public class ArrayHelpers {
             arr[j+1]=key;
         }
     }
+    public void print(int[] array) {
+        System.out.print("[");
+        for (int elem: array) {
+            System.out.print(elem + ",");
+        }
+        System.out.print("]");
+    }
 }
