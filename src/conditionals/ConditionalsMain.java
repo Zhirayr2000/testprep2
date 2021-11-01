@@ -14,7 +14,7 @@ public class ConditionalsMain {
         System.out.println("Result is:" + result);
         //Deciding the number specification
         int value = (int) (Math.random() * 100);
-        System.out.println("Generated number is: " +value);
+        System.out.println("Generated number is: " + value);
         conditionals.printNumberDescription(value);
     }
 }

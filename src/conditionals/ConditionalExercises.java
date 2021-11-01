@@ -17,21 +17,19 @@ public class ConditionalExercises {
         }
     }
 
-    public  boolean isOdd(int value) {
+    public boolean isOdd(int value) {
         return value % 2 == 0;
     }
-    public  void printNumberDescription(int value)
-    {
-        if(value>=0 && value<10)
+
+    public void printNumberDescription(int value) {
+        if (value >= 0 && value < 10)
             System.out.println("It is a digit");
-        else if(value>=10 && value<100)
-        {
-            if(isOdd(value))
+        else if (value >= 10 && value < 100) {
+            if (isOdd(value))
                 System.out.println("It is a two-digit even number");
             else
                 System.out.println("It is a two-digit odd number");
-        }
-        else {
+        } else {
             System.out.println("Out of bounds");
         }
     }
